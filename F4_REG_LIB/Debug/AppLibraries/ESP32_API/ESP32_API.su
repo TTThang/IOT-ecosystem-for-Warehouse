@@ -1,0 +1,12 @@
+../AppLibraries/ESP32_API/ESP32_API.cpp:23:6:)	100	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:43:6:void ESP32_API_Init(USART*, GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t)	24	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:61:6:void ESP32_Hardware_Reset()	24	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:79:6:void ESP32_SendEnvData(char*)	0	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:83:6:void ESP32_WiFi_On(char*, char*)	0	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:87:6:void ESP32_WiFi_Off()	0	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:91:6:void ESP32_WiFi_Scan()	0	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:95:6:void ESP32_Ethernet_On()	0	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:99:6:void ESP32_Ethernet_Off()	0	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:103:6:void ESP32_MQTT_Config(char*, char*, char*)	16	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:107:6:void ESP32_MQTT_Start()	0	static
+../AppLibraries/ESP32_API/ESP32_API.cpp:111:6:void ESP32_MQTT_Stop()	0	static

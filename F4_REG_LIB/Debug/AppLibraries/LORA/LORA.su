@@ -1,0 +1,43 @@
+../AppLibraries/LORA/LORA.cpp:12:1:LoRa::LoRa(GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t)	0	static
+../AppLibraries/LORA/LORA.cpp:61:6:void LoRa::Event_Register_Handler(void (*)(void*), void (*)(void*, uint8_t))	0	static
+../PeriphLibraries/SPI_F4xx/SPI_F4xx.hpp:167:10:Result_t SPI<DataSize>::Transmit(DataSize*, uint32_t) [with DataSize = unsigned char]	184	static
+../PeriphLibraries/SPI_F4xx/SPI_F4xx.hpp:253:10:Result_t SPI<DataSize>::Transmit_Receive(DataSize*, DataSize*, uint32_t) [with DataSize = unsigned char]	192	static
+../AppLibraries/LORA/LORA.cpp:436:9:uint8_t LoRa::singleTransfer(uint8_t, uint8_t)	200	static
+../AppLibraries/LORA/LORA.cpp:134:9:uint8_t LoRa::packetRssi()	8	static
+../AppLibraries/LORA/LORA.cpp:158:9:int16_t LoRa::rssi()	8	static
+../AppLibraries/LORA/LORA.cpp:182:9:uint8_t LoRa::read()	8	static
+../AppLibraries/LORA/LORA.cpp:282:6:long int LoRa::getSignalBandwidth()	8	static
+../AppLibraries/LORA/LORA.cpp:142:6:long int LoRa::packetFrequencyError()	16	static
+../AppLibraries/LORA/LORA.cpp:432:6:void LoRa::writeRegister(uint8_t, uint8_t)	0	static
+../AppLibraries/LORA/LORA.cpp:94:6:bool LoRa::isTransmitting()	8	static
+../AppLibraries/LORA/LORA.cpp:166:8:size_t LoRa::write(const uint8_t*, size_t)	24	static
+../AppLibraries/LORA/LORA.cpp:190:9:uint8_t LoRa::peek()	16	static
+../AppLibraries/LORA/LORA.cpp:217:6:void LoRa::idle()	0	static
+../AppLibraries/LORA/LORA.cpp:221:6:void LoRa::sleep()	0	static
+../AppLibraries/LORA/LORA.cpp:250:6:void LoRa::setFrequency(long int)	16	static
+../AppLibraries/LORA/LORA.cpp:319:6:void LoRa::setLdoFlag()	16	static
+../AppLibraries/LORA/LORA.cpp:264:6:void LoRa::setSpreadingFactor(uint8_t)	16	static
+../AppLibraries/LORA/LORA.cpp:301:6:void LoRa::setSignalBandwidth(long int)	16	static
+../AppLibraries/LORA/LORA.cpp:330:6:void LoRa::setCodingRate4(uint8_t)	16	static
+../AppLibraries/LORA/LORA.cpp:339:6:void LoRa::setPreambleLength(long int)	16	static
+../AppLibraries/LORA/LORA.cpp:344:6:void LoRa::setSyncWord(uint8_t)	0	static
+../AppLibraries/LORA/LORA.cpp:348:6:void LoRa::enableCrc()	8	static
+../AppLibraries/LORA/LORA.cpp:352:6:void LoRa::disableCrc()	8	static
+../AppLibraries/LORA/LORA.cpp:356:6:void LoRa::enableInvertIQ()	8	static
+../AppLibraries/LORA/LORA.cpp:361:6:void LoRa::disableInvertIQ()	8	static
+../AppLibraries/LORA/LORA.cpp:366:6:void LoRa::setOCP(uint8_t)	0	static
+../AppLibraries/LORA/LORA.cpp:225:6:void LoRa::setTxPower(uint8_t, uint8_t)	16	static
+../AppLibraries/LORA/LORA.cpp:375:6:void LoRa::setGain(uint8_t)	16	static
+../AppLibraries/LORA/LORA.cpp:391:6:void LoRa::explicitHeaderMode()	8	static
+../AppLibraries/LORA/LORA.cpp:397:6:void LoRa::implicitHeaderMode()	8	static
+../AppLibraries/LORA/LORA.cpp:403:6:void LoRa::IRQHandler()	16	static
+../AppLibraries/LORA/LORA.cpp:162:8:size_t LoRa::write(uint8_t)	16	static
+../AppLibraries/LORA/LORA.cpp:202:6:void LoRa::Receive(uint8_t)	16	static
+../AppLibraries/LORA/LORA.cpp:102:9:uint8_t LoRa::parsePacket(uint8_t)	16	static
+../AppLibraries/LORA/LORA.cpp:66:6:bool LoRa::beginPacket(bool)	16	static
+../AppLibraries/LORA/LORA.cpp:22:6:bool LoRa::Init(SPI<unsigned char>*, long int, uint8_t, uint32_t)	16	static
+../AppLibraries/LORA/LORA.cpp:80:6:bool LoRa::endPacket(bool)	200	static
+../AppLibraries/LORA/LORA.cpp:428:9:uint8_t LoRa::readRegister(uint8_t)	200	static
+../AppLibraries/LORA/LORA.cpp:260:9:uint8_t LoRa::getSpreadingFactor()	200	static
+../AppLibraries/LORA/LORA.cpp:138:7:float LoRa::packetSnr()	200	static
+../AppLibraries/LORA/LORA.cpp:178:9:uint8_t LoRa::available()	200	static

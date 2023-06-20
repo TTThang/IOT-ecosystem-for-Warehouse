@@ -1,0 +1,74 @@
+[1/5] cd /home/anh/PROJECTS/CODE/ESP_IDF/ESP32/GateWay_ESP/build/esp-idf/esptool_py && /home/anh/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/anh/ProgramFile/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/anh/PROJECTS/CODE/ESP_IDF/ESP32/GateWay_ESP/build/partition_table/partition-table.bin /home/anh/PROJECTS/CODE/ESP_IDF/ESP32/GateWay_ESP/build/GateWay_ESP.bin
+GateWay_ESP.bin binary size 0xde7f0 bytes. Smallest app partition is 0x100000 bytes. 0x21810 bytes (13%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /home/anh/PROJECTS/CODE/ESP_IDF/ESP32/GateWay_ESP/build/bootloader/esp-idf/esptool_py && /home/anh/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/anh/ProgramFile/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/anh/PROJECTS/CODE/ESP_IDF/ESP32/GateWay_ESP/build/bootloader/bootloader.bin
+Bootloader binary size 0x6720 bytes. 0x8e0 bytes (8%) free.
+[2/3] cd /home/anh/ProgramFile/esp-idf/components/esptool_py && /home/anh/.espressif/tools/cmake/3.24.0/bin/cmake -D IDF_PATH=/home/anh/ProgramFile/esp-idf -D "SERIAL_TOOL=/home/anh/.espressif/python_env/idf5.1_py3.10_env/bin/python;;/home/anh/ProgramFile/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/anh/PROJECTS/CODE/ESP_IDF/ESP32/GateWay_ESP/build -P /home/anh/ProgramFile/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 GateWay_ESP.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.5.dev0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 08:b6:1f:34:ab:34
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000eefff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26400 bytes to 16472...
+Writing at 0x00001000... (50 %)
+Writing at 0x000076ac... (100 %)
+Wrote 26400 bytes (16472 compressed) at 0x00001000 in 0.8 seconds (effective 258.7 kbit/s)...
+Hash of data verified.
+Compressed 911344 bytes to 574930...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001cf29... (5 %)
+Writing at 0x000261a8... (8 %)
+Writing at 0x0002b841... (11 %)
+Writing at 0x00036b85... (13 %)
+Writing at 0x000400f9... (16 %)
+Writing at 0x00045d25... (19 %)
+Writing at 0x0004b6f9... (22 %)
+Writing at 0x00051379... (25 %)
+Writing at 0x00056e47... (27 %)
+Writing at 0x0005cc55... (30 %)
+Writing at 0x000624e3... (33 %)
+Writing at 0x00067fe8... (36 %)
+Writing at 0x0006e2c3... (38 %)
+Writing at 0x00073f9a... (41 %)
+Writing at 0x0007979e... (44 %)
+Writing at 0x0007e980... (47 %)
+Writing at 0x00083e8b... (50 %)
+Writing at 0x000890b1... (52 %)
+Writing at 0x0008e79a... (55 %)
+Writing at 0x00093e5b... (58 %)
+Writing at 0x0009950b... (61 %)
+Writing at 0x0009f7a8... (63 %)
+Writing at 0x000a4f91... (66 %)
+Writing at 0x000aa8a5... (69 %)
+Writing at 0x000b003b... (72 %)
+Writing at 0x000b591e... (75 %)
+Writing at 0x000bb14a... (77 %)
+Writing at 0x000c0cb7... (80 %)
+Writing at 0x000c6698... (83 %)
+Writing at 0x000cf2fa... (86 %)
+Writing at 0x000d78ab... (88 %)
+Writing at 0x000dd5cd... (91 %)
+Writing at 0x000e2fdc... (94 %)
+Writing at 0x000e896a... (97 %)
+Writing at 0x000edd0c... (100 %)
+Wrote 911344 bytes (574930 compressed) at 0x00010000 in 13.4 seconds (effective 545.4 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 328.5 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

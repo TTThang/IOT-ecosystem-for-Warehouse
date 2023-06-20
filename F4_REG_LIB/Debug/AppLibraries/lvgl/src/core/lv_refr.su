@@ -1,0 +1,12 @@
+../AppLibraries/lvgl/src/core/lv_refr.c:1231:13:draw_buf_flush	144	static
+../AppLibraries/lvgl/src/core/lv_refr.c:729:19:lv_refr_get_top_obj.part.0	32	static
+../AppLibraries/lvgl/src/core/lv_refr.c:102:6:_lv_refr_init	0	static
+../AppLibraries/lvgl/src/core/lv_refr.c:129:6:lv_obj_redraw	56	static
+../AppLibraries/lvgl/src/core/lv_refr.c:815:6:refr_obj.part.0	152	static
+../AppLibraries/lvgl/src/core/lv_refr.c:769:13:refr_obj_and_children	32	static
+../AppLibraries/lvgl/src/core/lv_refr.c:622:13:refr_area_part	112	static
+../AppLibraries/lvgl/src/core/lv_refr.c:205:6:_lv_inv_area	32	static
+../AppLibraries/lvgl/src/core/lv_refr.c:266:13:_lv_refr_get_disp_refreshing	0	static
+../AppLibraries/lvgl/src/core/lv_refr.c:277:6:_lv_refr_set_disp_refreshing	0	static
+../AppLibraries/lvgl/src/core/lv_refr.c:286:6:_lv_disp_refr_timer	88	static
+../AppLibraries/lvgl/src/core/lv_refr.c:112:6:lv_refr_now	8	static

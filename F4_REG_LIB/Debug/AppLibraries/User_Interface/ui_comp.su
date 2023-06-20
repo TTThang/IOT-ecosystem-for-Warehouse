@@ -1,0 +1,4 @@
+../AppLibraries/User_Interface/ui_comp.cpp:27:6:void get_component_child_event_cb(lv_event_t*)	16	static
+../AppLibraries/User_Interface/ui_comp.cpp:35:6:void del_component_child_event_cb(lv_event_t*)	8	static
+../AppLibraries/User_Interface/ui_comp.cpp:18:12:lv_obj_t* ui_comp_get_child(lv_obj_t*, uint32_t)	16	static
+../AppLibraries/User_Interface/ui_comp.cpp:44:12:lv_obj_t* ui_Screen1_ImgButton2_create(lv_obj_t*)	8	static

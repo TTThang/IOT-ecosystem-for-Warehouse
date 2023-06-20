@@ -1,0 +1,7 @@
+../PeriphLibraries/SYSTEM_F4xx/SYSTEM_F4xx.cpp:26:6:void Power_Configuration(PowerConfig_t*)	0	static
+../PeriphLibraries/SYSTEM_F4xx/SYSTEM_F4xx.cpp:44:6:void FlashMem_Configuration(FlashMemConfig_t*)	16	static
+../PeriphLibraries/SYSTEM_F4xx/SYSTEM_F4xx.cpp:74:6:void Update_Latency()	4	static
+../PeriphLibraries/SYSTEM_F4xx/SYSTEM_F4xx.cpp:86:10:Memory_t Get_MemorySize()	56	static,ignoring_inline_asm
+../PeriphLibraries/SYSTEM_F4xx/SYSTEM_F4xx.cpp:101:10:uint32_t Get_FreeHeapSize()	56	static,ignoring_inline_asm
+../PeriphLibraries/SYSTEM_F4xx/SYSTEM_F4xx.cpp:109:10:uint32_t Get_UsedRamSize()	48	static
+../PeriphLibraries/SYSTEM_F4xx/SYSTEM_F4xx.cpp:113:1:cpp)	0	static

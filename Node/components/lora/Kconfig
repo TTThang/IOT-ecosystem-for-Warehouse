@@ -1,0 +1,65 @@
+# put here your custom config value
+menu "LoRa Configuration"
+    config PIN_NUM_MISO
+        int "MISO"
+        range 0 48
+        default 19
+        help
+            Pin number for SPI MISO.
+
+    config PIN_NUM_MOSI
+        int "MOSI"
+        range 0 48
+        default 27
+        help
+            Pin number for SPI MOSI.
+
+    config PIN_NUM_CLK
+        int "CLK"
+        range 0 48
+        default 5
+        help
+        Pin number for SPI Clock.
+
+    config PIN_NUM_CS
+        int "CS"
+        range 0 48
+        default 18
+        help
+            Pin number for SPI Chip Select.
+
+    config PIN_NUM_DIO
+        int "DIO"
+        range 0 48
+        default 26
+        help
+            Pin number for Data Ready signal from SX1278.
+
+    config RESET_PIN
+        int "Reset"
+        range 0 48
+        default 14
+        help
+            Pin number for Reset pin to SX1278.
+
+    config SF
+        int "SF"
+        range 6 12
+        default 12
+        help
+            Set Spreading Factor 6 - 12 for SX1278.
+
+    config FREQUENCY
+        int "FREQ"
+        default 433000000
+        help
+            Set frequency signal for SX1278.
+
+    config SYNC_WORD
+        int "SYNC_WORD"
+        range 0 255
+        default 243
+        help
+            Set sync word for SX1278.
+
+endmenu

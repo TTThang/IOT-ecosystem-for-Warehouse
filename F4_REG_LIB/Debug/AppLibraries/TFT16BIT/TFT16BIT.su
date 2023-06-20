@@ -1,0 +1,6 @@
+../AppLibraries/TFT16BIT/TFT16BIT.cpp:111:6:void TFT_SetWindow(uint16_t, uint16_t, uint16_t, uint16_t)	24	static
+../AppLibraries/TFT16BIT/TFT16BIT.cpp:125:6:void TFT_SetOrientation(TFT_Orientation)	16	static
+../AppLibraries/TFT16BIT/TFT16BIT.cpp:152:6:void TFT_PushData(uint16_t*, uint32_t)	32	static
+../AppLibraries/TFT16BIT/TFT16BIT.cpp:163:6:void TFT_FillRectangle(uint16_t, uint16_t, uint16_t, uint16_t, uint16_t)	36	static
+../AppLibraries/TFT16BIT/TFT16BIT.cpp:173:6:void TFT_Init(uint16_t, uint16_t)	24	static
+../AppLibraries/TFT16BIT/TFT16BIT.cpp:237:10:uint16_t TFT_ReadDriverID()	0	static

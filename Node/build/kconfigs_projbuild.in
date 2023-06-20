@@ -1,0 +1,6 @@
+source "/home/thangdei/esp_v4/esp-idf/components/app_update/Kconfig.projbuild"
+source "/home/thangdei/esp_v4/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/thangdei/esp_v4/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/home/thangdei/esp_v4/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/thangdei/esp_v4/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/main/Kconfig.projbuild"

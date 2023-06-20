@@ -1,0 +1,9 @@
+../PeriphLibraries/RCC_F4xx/RCC_F4xx.cpp:22:10:Result_t RCC_SystemClock_Init(RCC_Config_t*)	184	static
+../PeriphLibraries/RCC_F4xx/RCC_F4xx.cpp:146:10:uint32_t RCC_GetBusFreq(PCLKBus_t)	0	static
+../PeriphLibraries/RCC_F4xx/RCC_F4xx.cpp:179:10:uint32_t RCC_GetTick()	0	static
+../PeriphLibraries/RCC_F4xx/RCC_F4xx.cpp:183:6:void RCC_Delay_ms(uint32_t)	16	static
+../PeriphLibraries/RCC_F4xx/RCC_F4xx.cpp:192:6:void delay_ms_Init(void (*)(uint32_t))	0	static
+../PeriphLibraries/RCC_F4xx/RCC_F4xx.cpp:196:6:void delay_ms(uint32_t)	0	static
+../PeriphLibraries/RCC_F4xx/RCC_F4xx.cpp:200:6:void gettick_Init(uint32_t (*)())	0	static
+../PeriphLibraries/RCC_F4xx/RCC_F4xx.cpp:204:10:uint32_t gettick()	0	static
+../PeriphLibraries/RCC_F4xx/RCC_F4xx.cpp:208:6:void STM_Restart(uint16_t)	0	static,ignoring_inline_asm

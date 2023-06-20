@@ -1,0 +1,6 @@
+../AppLibraries/lvgl/demos/stress/lv_demo_stress.c:440:13:msgbox_del	0	static
+../AppLibraries/lvgl/demos/stress/lv_demo_stress.c:455:13:arc_set_end_angle_anim	0	static
+../AppLibraries/lvgl/demos/stress/lv_demo_stress.c:445:13:set_y_anim	0	static
+../AppLibraries/lvgl/demos/stress/lv_demo_stress.c:450:13:set_width_anim	0	static
+../AppLibraries/lvgl/demos/stress/lv_demo_stress.c:55:13:obj_test_task_cb	184	static
+../AppLibraries/lvgl/demos/stress/lv_demo_stress.c:45:6:lv_demo_stress	0	static

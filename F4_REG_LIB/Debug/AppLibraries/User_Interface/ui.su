@@ -1,0 +1,2 @@
+../AppLibraries/User_Interface/ui.cpp:16:6:void ui_Screen1_screen_init()	8	static
+../AppLibraries/User_Interface/ui.cpp:25:6:void ui_init()	32	static

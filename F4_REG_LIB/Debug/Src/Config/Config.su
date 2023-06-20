@@ -1,0 +1,15 @@
+../Src/Config/Config.cpp:346:6:void DMA2_Stream0_TranferComplete_CallBack(void*, DMA_Event_t)	0	static
+../Src/Config/Config.cpp:414:6:void LoRa_Request_TimerCallback(void*, TIM_Event_t)	0	static
+../Src/Config/Config.cpp:425:6:void DS3231_TimerCallback(void*, TIM_Event_t)	0	static
+../Src/Config/Config.cpp:339:13:void STM_LOGSET(char*)	88	static
+../Src/Config/Config.cpp:458:6:void LV_TFT_Driver(lv_disp_drv_t*, const lv_area_t*, lv_color_t*)	16	static
+../Src/Config/Config.cpp:351:6:void DMA2_Stream7_TranferComplete_CallBack(void*, DMA_Event_t)	88	static
+../Src/Config/Config.cpp:465:6:void lv_Touch_Driver(lv_indev_drv_t*, lv_indev_data_t*)	16	static
+../Src/Config/Config.cpp:402:6:void EXTI_Callback(uint16_t)	8	static
+../Src/Config/Config.cpp:435:6:void LVGL_Init()	16	static
+../PeriphLibraries/SPI_F4xx/SPI_F4xx.hpp:123:6:void SPI<DataSize>::Init(SPI_Config_t*) [with DataSize = unsigned char]	16	static
+../Src/Config/Config.cpp:233:6:void Periph_Initialize()	256	static
+c:\st\stm32cubeide_1.8.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\c++\10.3.1\bits\deque.tcc:481:7:) [with _Args = {unsigned char* const&}; _Tp = unsigned char*; _Alloc = std::allocator<unsigned char*>]	32	static
+../Src/Config/Config.cpp:358:6:void USART1_Event_Callback(void*, USART_Event_t)	96	static
+../Src/Config/Config.cpp:479:1:cpp)	32	static
+../Src/Config/Config.cpp:479:1:cpp)	16	static

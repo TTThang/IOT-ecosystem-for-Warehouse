@@ -1,0 +1,6 @@
+../PeriphLibraries/STM_LOG/STM_LOG.cpp:70:6:void STM_LOG_Init(void (*)(char*))	0	static
+../PeriphLibraries/STM_LOG/STM_LOG.cpp:74:6:)	64	static
+../PeriphLibraries/STM_LOG/STM_LOG.cpp:97:6:void STM_LOG_RES(Result_t)	24	static
+../PeriphLibraries/STM_LOG/STM_LOG.cpp:101:6:void STM_LOG_MEM()	40	static
+../PeriphLibraries/STM_LOG/STM_LOG.cpp:107:6:void STM_LOG_REG(char*, uint32_t)	24	static
+../PeriphLibraries/STM_LOG/STM_LOG.cpp:111:13:void STM_LOG_Print(char*)	0	static

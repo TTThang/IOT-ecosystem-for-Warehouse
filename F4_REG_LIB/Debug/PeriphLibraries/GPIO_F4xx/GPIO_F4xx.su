@@ -1,0 +1,11 @@
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:14:6:void GPIO_CLOCKENABLE()	0	static
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:20:6:void GPIO_PortClockEnable(GPIO_TypeDef*)	0	static
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:33:6:void GPIO_Init(GPIO_TypeDef*, uint16_t, GPIOMode_t)	32	static
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:77:6:void GPIO_AlternateFunction(GPIO_TypeDef*, uint16_t, GPIOAlternateFunction_t)	8	static
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:94:6:void GPIO_AF_Type(GPIO_TypeDef*, uint16_t, GPIOMode_t)	0	static
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:99:6:void GPIO_Pullup(GPIO_TypeDef*, uint16_t)	0	static
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:104:6:void GPIO_Pulldown(GPIO_TypeDef*, uint16_t)	0	static
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:109:6:void GPIO_Set(GPIO_TypeDef*, uint16_t)	0	static
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:113:6:void GPIO_Reset(GPIO_TypeDef*, uint16_t)	0	static
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:117:6:void GPIO_Toggle(GPIO_TypeDef*, uint16_t)	4	static
+../PeriphLibraries/GPIO_F4xx/GPIO_F4xx.cpp:123:5:int GPIO_Read(GPIO_TypeDef*, uint16_t)	0	static

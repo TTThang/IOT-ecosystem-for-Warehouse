@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/build/CMakeFiles/bootloader
+/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/build/CMakeFiles/bootloader.rule
+/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/build/CMakeFiles/bootloader-complete.rule
+/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/thangdei/EXAM/Project_IoT/FULL_Project_Backup/Final_Backup/Node/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
